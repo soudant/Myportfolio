@@ -5,7 +5,7 @@ import TaskBarItem from "./TaskBarItem.vue";
 <template>
     <TaskBarItem>
         <template #iconDesktop>
-            TS
+             <img src="@/assets/img/logo.png" alt="TS" class="h-full flex justify-center pl-4 pr-4">
         </template>
     </TaskBarItem>
 </template>
