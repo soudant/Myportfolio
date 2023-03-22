@@ -6,7 +6,7 @@
       </div>
       <input type="text" placeholder="Rechercher"
         class="input input-bordered w-[30vw] max-w-xs h-full bg-primaries-white text-primaries-text mr-4 ml-4" />
-      <div class="icon">
+      <div class="icon m-[-0.5rem] flex space-x-2">
         <slot name="iconFileOpen"></slot>
       </div>
     </div>
