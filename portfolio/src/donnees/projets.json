@@ -1,0 +1,77 @@
+[
+        {
+            "id": 1,
+            "name": "projet 1 : Mon portfolio",
+            "annee": 2023,
+            "categorie": "Développement Web",
+            "descriptions": [],
+            "photosIllus":[],
+            "photos": [],
+            "lienURL": "#",
+            "competences": ["Maîtrise de Vue.js", "Maîtrise de Tailwind CSS", "Maîtrise de HTML et CSS"],
+            "ressources": ["vue.js", "tailwind", "html", "css"]
+
+        },
+        {
+            "id": 2,
+            "name": "projet 2 : Twitter",
+            "annee": 2022,
+            "categorie": "Développement Web",
+            "descriptions": "",
+            "photosIllus":[],
+            "photos": [],
+            "lienURL": null,
+            "competences": [],
+            "ressources": ["vue.js", "tailwind", "html", "css" , "figma", "docker", "node.js"]
+        },
+        {
+            "id": 3,
+            "name": "projet 3 :  Mairie de Moye 2022",
+            "annee": 2021,
+            "categorie": "Audiovisuel",
+            "descriptions": ["En août 2021, Madame VIBERT, la Maire de la ville de Moye, m'a sollicité afin de réaliser une vidéo destinée aux vœux du Maire pour janvier 2022. Le projet consistait à retracer l'ensemble des activités qui ont eu lieu à Moye au cours de l'année 2021, incluant notamment l'école, les associations, les travaux, les marchés ainsi que la mairie."," Étant donné que ce projet constituait ma première expérience significative en dehors de mon cursus scolaire ou universitaire, j'ai pris conscience de l'importance de fournir une prestation de qualité à un véritable client. Les enjeux étaient donc considérables."," Au cours de notre première réunion, Madame VIBERT et moi-même avons convenu du fil conducteur de la vidéo. C'est à ce moment-là que j'ai proposé l'utilisation d'une carte ainsi que de 'mini-montages' pour chaque lieu représenté. Madame VIBERT souhaitait accorder une attention particulière aux hameaux de la ville, souvent négligés, afin de leur signifier que l'année 2021 était différente et que la mairie avait à cœur de prendre en considération leurs besoins. L'idée de représenter tous les panneaux des hameaux a donc été considérée comme judicieuse."," J'ai énormément apprécié ce projet en raison de la liberté de création qu'il m'a offerte, mais aussi de l'expérience qu'il m'a permis d'acquérir en matière de montage et de relations avec un client. Madame VIBERT m'a accordé sa confiance pour proposer des idées, ce qui m'a permis de prendre des initiatives."," Si je devais refaire ce projet, je m'organiserais de manière plus efficace pour éviter de perdre du temps de manière inutile."],
+            "photosIllus":[],
+            "photos": ["/img/Black-Sorbaire.jpg", "/img/Black-Sorbaire.jpg", "/img/Black-Sorbaire.jpg", "/img/Black-Sorbaire.jpg", "/img/Black-Sorbaire.jpg"],
+            "lienURL": "#",
+            "competences": ["Montage vidéo",
+            "Relations avec un client",
+            "Créativité"],
+            "ressources": ["Illustrator", "After Effect", "Premiere Pro"]
+        },
+        {
+            "id": 4,
+            "name": "projet 4 : Maire de Moye 2023",
+            "annee": 2022,
+            "categorie": "",
+            "descriptions": "",
+            "photosIllus":[],
+            "photos": [],
+            "lienURL": "#",
+            "competences": [],
+            "ressources": []
+        },
+        {
+            "id": 5,
+            "name": "Projet 5 : PUB VisiAR",
+            "annee": 2023,
+            "categorie": "",
+            "descriptions": "",
+            "photosIllus":[],
+            "photos": [],
+            "lienURL": "#",
+            "competences": [],
+            "ressources": []
+        },
+        {
+            "id": 6,
+            "name": null,
+            "annee": null,
+            "categorie": null,
+            "descriptions": null,
+            "photosIllus":[],
+            "photos": [],
+            "lienURL": "#",
+            "competences": [],
+            "ressources": []
+        }
+    ]

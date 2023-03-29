@@ -1,4 +1,15 @@
 {
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "vue/setup-compiler-macros": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ]
+  },
   "name": "portfolio",
   "version": "0.0.0",
   "private": true,
@@ -12,6 +23,7 @@
     "vue-router": "^4.1.6"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
     "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.21",

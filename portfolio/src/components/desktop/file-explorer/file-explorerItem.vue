@@ -9,7 +9,7 @@ import reduceIcon from '@/assets/img/icon/reduceIcon.vue'
 
 
 <template>
-    <div id="file" ref="file" class="file bg-primaries-white rounded-lg w-[50vw] h-[50vh]">
+    <div id="file" ref="file" class="file shadow-xl bg-primaries-white rounded-lg w-[50vw] h-[50vh]">
         <div
             class="header h-[10%] bg-primaries-dark_blue text-primaries-white rounded-t-lg flex justify-between text-center pl-4 pr-4">
             <div class="gauche mt-auto mb-auto">
@@ -27,6 +27,11 @@ import reduceIcon from '@/assets/img/icon/reduceIcon.vue'
                             <fileMiniIcon />
                             {{ nameFolder }}
                         </li>
+                        <li v-if="nameFolderChild != null">
+                            <fileMiniIcon />
+                            {{ nameFolderChild }}
+                        </li>
+
                     </ul>
                 </div>
             </div>
@@ -38,7 +43,7 @@ import reduceIcon from '@/assets/img/icon/reduceIcon.vue'
 
             </div>
         </div>
-        <div id="contenu" ref="contenu" class="flex flex-wrap">
+        <div id="contenu" ref="contenu" class="flex flex-wrap gap-2">
             <slot name="contenu"></slot>
         </div>
         <div class="w-full flex h-[10%] rounded-b-lg self-end absolute bottom-0 p-2 text-primaries-text">
@@ -54,6 +59,7 @@ export default {
         return {
             nbElements: 0,
             isFullscreen: false,
+            isHidden: true,
         }
     },
     methods: {
@@ -75,6 +81,7 @@ export default {
         closeBtn() {
             const fileExplorer = this.$refs.file;
             fileExplorer.classList.add("hidden");
+            this.isHidden = true;
         },
     },
     mounted() {
@@ -84,6 +91,7 @@ export default {
 
     props: [
         'nameFolder',
+        'nameFolderChild',
     ],
 };
 </script>
