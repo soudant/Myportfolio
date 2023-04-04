@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import PortfolioFileVue from '../views/PortfolioFileView.vue'
-
+import CompetencesView from '../views/CompetencesView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -15,6 +15,11 @@ const router = createRouter({
       props: true,
       name: 'portfolio',
       component: PortfolioFileVue
+    },
+    {
+      path: '/competences',
+      name: 'competences',
+      component: CompetencesView
     }
 
   ]

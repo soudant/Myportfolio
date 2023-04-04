@@ -10,7 +10,7 @@ import project from '@/donnees/projets.json'
 <template>
   <div id="desktop" class="h-screen w-screen bg-[url('/img/fond_ecran.jpeg')] bg-contain ">
     <!-- Folder desktop -->
-    <div class="p-2 w-min flex flex-col justify-center items-center text-primaries-text">
+    <div class="p-2 w-min flex flex-col justify-center items-center text-lightMode-primary">
       <FolderItem urlIcon="/img/IconFolder.svg" altIcon="icon du dossier à propos" text="À propos" size="w-[5vw]"
         class=" active" @click="toggleFolder('a_propos')" />
       <FolderItem urlIcon="/img/IconFolder.svg" altIcon="icon du dossier compétences" text="Compétences" size="w-[5vw]"
@@ -40,7 +40,9 @@ import project from '@/donnees/projets.json'
     <fileExplorerItem v-if="selectedFolder === 'competences'" @close-file-explorer="selectedFolder = null"
       nameFolder="Compétences" class="absolute top-[calc(50%-25vh)] left-[calc(50%-25vw)]" id="competences">
       <template #contenu>
-        <FolderItem urlIcon="/img/IconFolder.svg" text="TEST" size="w-[5vw]" class="" />
+        <RouterLink target='_blank' :to="'/competences'">
+          <FolderItem urlIcon="/img/IconFileHTML.svg" text="compétences.html" size="w-[5vw]" class="" />
+        </RouterLink>
       </template>
     </fileExplorerItem>
 
