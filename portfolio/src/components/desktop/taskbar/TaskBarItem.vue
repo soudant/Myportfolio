@@ -1,11 +1,11 @@
 <template>
-  <footer class="flex p-2 bg-primaries-light_blue text-primaries-white justify-between max-h-[60px]">
+  <footer class="flex p-2 bg-[rgba(42,48,60,0.8)] text-lightMode-white justify-between max-h-[60px]">
     <div class="gauche flex">
       <div class="icon">
         <slot name="iconDesktop"></slot>
       </div>
       <input type="text" placeholder="Rechercher"
-        class="input input-bordered w-[30vw] max-w-xs h-full bg-primaries-white text-primaries-text mr-4 ml-4" />
+        class="input input-bordered w-[30vw] max-w-xs h-full bg-lightMode-white text-lightMode-primary mr-4 ml-4" />
       <div class="icon m-[-0.5rem] flex space-x-2">
         <slot name="iconFileOpen"></slot>
       </div>

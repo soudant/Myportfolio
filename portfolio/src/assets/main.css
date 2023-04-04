@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: "ArialRoundedMTBold";
+    src: local("Arial Rounded MT Bold"),
+        url("/font/arlrdbd.ttf");
+}

@@ -11,7 +11,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <PortfolioItem :title="myJson[props.id-1].name" :categorie="myJson[props.id-1].categorie" :annee="myJson[props.id-1].annee" :descriptions="myJson[props.id-1].descriptions" :photos="myJson[props.id-1].photos" :lienURL="myJson[props.id-1].lienURL" :competences="myJson[props.id-1].competences" :ressources="myJson[props.id-1].ressources"></PortfolioItem>
+    <PortfolioItem :title="myJson[props.id-1].name" :categorie="myJson[props.id-1].categorie" :annee="myJson[props.id-1].annee" :descriptions="myJson[props.id-1].descriptions" :photosIllus="myJson[props.id-1].photosIllus" :photos="myJson[props.id-1].photos" :lienURL="myJson[props.id-1].lienURL" :competences="myJson[props.id-1].competences" :ressources="myJson[props.id-1].ressources"></PortfolioItem>
 
 </template>
 

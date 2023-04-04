@@ -8,7 +8,7 @@ import TaskBarItem from "./TaskBarItem.vue";
              <img src="@/assets/img/logo.png" alt="TS" class="h-full flex justify-center pl-4 pr-4">
         </template>
         <template #iconFileOpen>
-            <img src="/img/folder.png" alt="FolderIconOpen" class="h-full flex justify-center p-2 bg-primaries-text border-b-2" :class="cache" >
+            <img :src="url" alt="FolderIconOpen" class="h-full flex justify-center p-2 bg-lightMode-greySelected border-b-2 border-lightMode-white" :class="cache" >
         </template>
     </TaskBarItem>
 </template>
@@ -17,7 +17,9 @@ import TaskBarItem from "./TaskBarItem.vue";
 <script>
 export default {
     props: [
-        'cache'
+        'cache',
+        'url'
     ],
 }
 </script>
+
