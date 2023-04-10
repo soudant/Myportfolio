@@ -8,7 +8,7 @@ import project from '@/donnees/projets.json'
 </script>
 
 <template>
-  <div id="desktop" class="h-screen w-screen bg-[url('/img/fond_ecran.jpeg')] bg-contain ">
+  <div id="desktop" class="h-screen w-screen bg-[url('/img/fond_ecran.jpeg')] bg-center bg-cover ">
     <!-- Folder desktop -->
     <div class="p-2 w-min flex flex-col justify-center items-center text-lightMode-primary">
       <FolderItem urlIcon="/img/IconFolder.svg" altIcon="icon du dossier à propos" text="À propos" size="w-[5vw]"
@@ -50,19 +50,19 @@ import project from '@/donnees/projets.json'
       nameFolder="Portfolio" class="absolute top-[calc(50%-25vh)] left-[calc(50%-25vw)]" id="portfolio">
       <template #contenu>
         <RouterLink target='_blank' :to="'/portfolio/' + 1">
-          <FolderItem urlIcon="/img/IconFileHTML.svg" text="projet_1.html" size="w-[5vw]" class="" />
+          <FolderItem urlIcon="/img/IconFileHTML.svg" text="portfolio.html" size="w-[5vw]" class="" />
         </RouterLink>
         <RouterLink target='_blank' :to="'/portfolio/' + 2">
-          <FolderItem urlIcon="/img/IconFileHTML.svg" text="projet_2.html" size="w-[5vw]" class="" />
+          <FolderItem urlIcon="/img/IconFileHTML.svg" text="twitter_clone.html" size="w-[5vw]" class="" />
         </RouterLink>
         <RouterLink target='_blank' :to="'/portfolio/' + 3">
-          <FolderItem urlIcon="/img/IconFileHTML.svg" text="projet_3.html" size="w-[5vw]" class="" />
+          <FolderItem urlIcon="/img/IconFileHTML.svg" text="video_Moye2021.html" size="w-[5vw]" class="" />
         </RouterLink>
         <RouterLink target='_blank' :to="'/portfolio/' + 4">
-          <FolderItem urlIcon="/img/IconFileHTML.svg" text="projet_4.html" size="w-[5vw]" class="" />
+          <FolderItem urlIcon="/img/IconFileHTML.svg" text="video_Moye2022.html" size="w-[5vw]" class="" />
         </RouterLink>
         <RouterLink target='_blank' :to="'/portfolio/' + 5">
-          <FolderItem urlIcon="/img/IconFileHTML.svg" text="projet_5.html" size="w-[5vw]" class="" />
+          <FolderItem urlIcon="/img/IconFileHTML.svg" text="pub_Visiar.html" size="w-[5vw]" class="" />
         </RouterLink>
       </template>
     </fileExplorerItem>

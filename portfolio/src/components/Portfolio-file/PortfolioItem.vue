@@ -49,7 +49,6 @@
             </div>
         </div>
     </div>
-
     <div class="picture min-h-screen bg-lightMode-white w-[100%] mr-auto ml-auto items-center" v-if="photos.length > 0">
         <h2 class="text-lightMode-blue font-bold text-3xl pt-10 pb-20 text-center">Quelques photos : </h2>
         <div class="w-[50vw] mr-auto ml-auto items-center">

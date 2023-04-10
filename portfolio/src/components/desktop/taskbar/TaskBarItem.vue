@@ -6,7 +6,7 @@
       </div>
       <input type="text" placeholder="Rechercher"
         class="input input-bordered w-[30vw] max-w-xs h-full bg-lightMode-white text-lightMode-primary mr-4 ml-4" />
-      <div class="icon m-[-0.5rem] flex space-x-2">
+      <div class="icon m-[-0.5rem] min-w-[full] flex space-x-2">
         <slot name="iconFileOpen"></slot>
       </div>
     </div>
@@ -25,6 +25,7 @@
 import script from './dateHeure-script';
 export default {
   ...script,
+  
 }
 </script>
 

@@ -9,14 +9,14 @@ import reduceIcon from '@/assets/img/icon/reduceIcon.vue'
 
 
 <template>
-    <div id="file" ref="file" class="file shadow-xl bg-lightMode-white rounded-lg w-[50vw] h-[50vh]">
+    <div id="file" ref="file" class="file shadow-xl bg-lightMode-white rounded-lg w-[50vw] min-h-[50vh] h-min">
         <div
             class="header h-[15%] max-h-[10vh] 2xl:h-[10%] 2xl:max-h-[5vh] bg-lightMode-primary text-lightMode-white rounded-t-lg flex justify-between text-center pl-4 pr-4">
             <div class="gauche mt-auto mb-auto">
                 <div class="text-sm breadcrumbs">
                     <ul>
                         <li>
-                            <fileMiniIcon/>
+                            <fileMiniIcon />
                             Home
                         </li>
                         <li>
@@ -43,7 +43,7 @@ import reduceIcon from '@/assets/img/icon/reduceIcon.vue'
 
             </div>
         </div>
-        <div id="contenu" ref="contenu" class="flex flex-wrap gap-2 text-lightMode-primary">
+        <div id="contenu" ref="contenu" class="flex flex-wrap gap-2 text-lightMode-primary pb-5">
             <slot name="contenu"></slot>
         </div>
         <div class="w-full flex h-[10%] rounded-b-lg self-end absolute bottom-0 p-2 text-lightMode-primary">
@@ -65,16 +65,16 @@ export default {
     methods: {
         toggleFullscreen() {
             const fileExplorer = this.$refs.file;
-            console.log(fileExplorer);
             if (!this.isFullscreen) {
-                fileExplorer.classList.remove("top-[calc(50%-25vh)]", "left-[calc(50%-25vw)]")
-                fileExplorer.classList.add("h-[94vh]", "w-screen", "left-[0px]", "top-0");
-                console.log(fileExplorer);
+                fileExplorer.classList.remove("top-[calc(50%-25vh)]", "left-[calc(50%-25vw)]", "h-min");
+                const screenHeight = window.innerHeight;
+                const height = `calc(${screenHeight}px - 60px)`;
+                fileExplorer.style.height = height;
+                fileExplorer.classList.add("w-screen", "left-[0px]", "top-0");
             } else {
-                fileExplorer.classList.add("top-[calc(50%-25vh)]", "left-[calc(50%-25vw)]")
-                fileExplorer.classList.remove("h-[94vh]");
-                fileExplorer.classList.remove("w-screen");
-                fileExplorer.classList.remove("top-[0px]", "left-[0px]");
+                fileExplorer.classList.add("top-[calc(50%-25vh)]", "left-[calc(50%-25vw)]", "h-min");
+                fileExplorer.style.height = "auto";
+                fileExplorer.classList.remove("w-screen", "top-[0px]", "left-[0px]");
             }
             this.isFullscreen = !this.isFullscreen;
         },
@@ -94,7 +94,7 @@ export default {
     props: [
         'nameFolder',
         'nameFolderChild',
-        
+
     ],
 };
 </script>

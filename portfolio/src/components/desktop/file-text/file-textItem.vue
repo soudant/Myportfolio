@@ -24,17 +24,17 @@ import reduceIcon from '@/assets/img/icon/reduceIcon.vue'
             </div>
         </div>
         <div class="menu text-lightMode-primary border-b border-lightMode-light-grey pl-2 p-1">
-                <ul class="flex gap-3">
-                    <li>Fichier</li>
-                    <li>Edition</li>
-                    <li>Format</li>
-                    <li>Affichage</li>
-                    <li>Aide</li>
-                </ul>
+            <ul class="flex gap-3">
+                <li>Fichier</li>
+                <li>Edition</li>
+                <li>Format</li>
+                <li>Affichage</li>
+                <li>Aide</li>
+            </ul>
         </div>
         <div id="contenu" ref="contenu" class="gap-2 overflow-y-scroll p-2 h-[100%] text-lightMode-primary">
             <slot name="contenu"></slot>
-            
+
         </div>
 
     </div>
@@ -53,12 +53,15 @@ export default {
             const fileExplorer = this.$refs.file;
             if (!this.isFullscreen) {
                 fileExplorer.classList.remove("top-[calc(50%-25vh)]", "left-[calc(50%-20vw)]", "w-[40vw]")
+                const screenHeight = window.innerHeight;
+                const height = `calc(${screenHeight}px - 60px)`;
+                fileExplorer.style.height = height;
                 fileExplorer.classList.add("h-[94vh]", "w-screen", "left-[0px]", "top-0");
             } else {
                 fileExplorer.classList.add("top-[calc(50%-25vh)]", "left-[calc(50%-20vw)]", "w-[40vw]")
-                fileExplorer.classList.remove("h-[94vh]");
                 fileExplorer.classList.remove("w-screen");
                 fileExplorer.classList.remove("top-[0px]", "left-[0px]");
+                fileExplorer.style.height = "50vh";
             }
             this.isFullscreen = !this.isFullscreen;
         },
@@ -82,25 +85,23 @@ export default {
 </script>
 
 <style scoped>
-
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+    width: 15px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  @apply bg-lightMode-light-grey
+    @apply bg-lightMode-light-grey
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  @apply bg-lightMode-primary rounded-full
+    @apply bg-lightMode-primary rounded-full
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-lightMode-dark_grey
+    @apply bg-lightMode-dark_grey
 }
-
 </style>
