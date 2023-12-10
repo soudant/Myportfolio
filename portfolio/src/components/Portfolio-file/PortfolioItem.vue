@@ -16,17 +16,34 @@
         <div class=" w-[50%]">
             <h2 class="text-lightMode-blue font-bold text-3xl">Description : </h2>
             <div v-for="description in descriptions" :key="description">
-                <p class="text-lightMode-primary font-bold w-[100%] pt-5">{{ description }}</p>
+                <p class="text-lightMode-primary font-bold w-[100%] pt-5" v-if="!/<[a-z][\s\S]*>/i.test(description)">
+                <div v-html="description"></div>
+                </p>
+                <p class="text-lightMode-primary font-bold w-[100%] pt-5" v-else v-html="description"></p>
             </div>
         </div>
 
-        <div class="bg-lightMode-primary w-[60vh] h-[40vh] rounded">
+        <!-- <div class="bg-lightMode-primary w-[60vh] h-[40vh] rounded">
             <img :src="photosIllus[1]" alt="" class="h-full object-cover rounded">
+            <iframe class="h-full w-full object-cover rounded" :src="photosIllus[1]" allowfullscreen scrolling="no"></iframe>
+        </div> -->
+        <div class="bg-lightMode-primary w-[60vh] h-[40vh] rounded">
+            <!-- Vérifie si photosIllus[1] est une image -->
+            <template v-if="/\.(jpeg|jpg|gif|png)$/i.test(photosIllus[1])">
+                <img :src="photosIllus[1]" alt="" class="h-full object-cover rounded">
+            </template>
+
+            <!-- Vérifie si photosIllus[1] est un lien vidéo -->
+            <template v-else-if="/^https?:\/\/.+$/i.test(photosIllus[1])">
+                <iframe class="h-full w-full object-cover rounded" :src="photosIllus[1]" allowfullscreen
+                    scrolling="no"></iframe>
+            </template>
         </div>
+
     </div>
 
     <div class="min-h-screen bg-lightMode-primary w-[100%] pr-40 pl-40 flex justify-around items-center">
-        <div class="card w-96 bg-lightMode-white shadow-xl">
+        <div class="card w-96 bg-lightMode-white shadow-xl m-2">
             <figure><img src="/img/Black-Sorbaire.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="text-lightMode-blue font-bold text-3xl">Compétences : </h2>
@@ -37,7 +54,7 @@
                 </div>
             </div>
         </div>
-        <div class="card w-96 bg-lightMode-white shadow-xl">
+        <div class="card w-96 bg-lightMode-white shadow-xl m-2">
             <figure><img src="/img/Black-Sorbaire.jpg" alt="Shoes" /></figure>
             <div class="card-body">
                 <h2 class="text-lightMode-blue font-bold text-3xl text-right">Ressources : </h2>

@@ -1,63 +1,177 @@
 [
-        {
-            "id": 1,
-            "name": "projet 1 : Mon portfolio",
-            "annee": 2023,
-            "categorie": "Développement Web",
-            "descriptions": [],
-            "photosIllus":[],
-            "photos": [],
-            "lienURL": "https://github.com/soudant/Myportfolio",
-            "competences": ["Maîtrise de Vue.js", "Maîtrise de Tailwind CSS", "Maîtrise de HTML et CSS"],
-            "ressources": ["vue.js", "tailwind", "html", "css", "Github"]
-
-        },
-        {
-            "id": 2,
-            "name": "projet 2 : Twitter",
-            "annee": 2023,
-            "categorie": "Développement Web",
-            "descriptions": "",
-            "photosIllus":[],
-            "photos": [],
-            "lienURL": null,
-            "competences": ["Maîtrise de Vue.js", "Maîtrise de Tailwind CSS", "Maîtrise de HTML et CSS", "Maîtrise de Figma", "Connaissance de Docker"],
-            "ressources": ["vue.js", "tailwind", "html", "css" , "figma", "Github", "docker", "node.js"]
-        },
-        {
-            "id": 3,
-            "name": "projet 3 :  Mairie de Moye 2022",
-            "annee": 2021,
-            "categorie": "Audiovisuel",
-            "descriptions": ["En août 2021, Madame VIBERT, la Maire de la ville de Moye, m'a sollicité afin de réaliser une vidéo destinée aux vœux du Maire pour janvier 2022. Le projet consistait à retracer l'ensemble des activités qui ont eu lieu à Moye au cours de l'année 2021, incluant notamment l'école, les associations, les travaux, les marchés ainsi que la mairie."," Étant donné que ce projet constituait ma première expérience significative en dehors de mon cursus scolaire ou universitaire, j'ai pris conscience de l'importance de fournir une prestation de qualité à un véritable client. Les enjeux étaient donc considérables."," Au cours de notre première réunion, Madame VIBERT et moi-même avons convenu du fil conducteur de la vidéo. C'est à ce moment-là que j'ai proposé l'utilisation d'une carte ainsi que de 'mini-montages' pour chaque lieu représenté. Madame VIBERT souhaitait accorder une attention particulière aux hameaux de la ville, souvent négligés, afin de leur signifier que l'année 2021 était différente et que la mairie avait à cœur de prendre en considération leurs besoins. L'idée de représenter tous les panneaux des hameaux a donc été considérée comme judicieuse."," J'ai énormément apprécié ce projet en raison de la liberté de création qu'il m'a offerte, mais aussi de l'expérience qu'il m'a permis d'acquérir en matière de montage et de relations avec un client. Madame VIBERT m'a accordé sa confiance pour proposer des idées, ce qui m'a permis de prendre des initiatives."," Si je devais refaire ce projet, je m'organiserais de manière plus efficace pour éviter de perdre du temps de manière inutile."],
-            "photosIllus":["/img/imgProjet/projet_3/3.JPG", "/img/imgProjet/projet_3/4.JPG"],
-            "photos": ["/img/imgProjet/projet_3/6.JPG", "/img/imgProjet/projet_3/4.JPG", "/img/imgProjet/projet_3/2.JPG", "/img/imgProjet/projet_3/5.JPG", "/img/imgProjet/projet_3/1.JPG", "/img/imgProjet/projet_3/3.JPG"],
-            "lienURL": "",
-            "competences": ["Montage vidéo", "Relations avec un client", "Créativité"],
-            "ressources": ["Hitfilm Express", "google drive"]
-        },
-        {
-            "id": 4,
-            "name": "projet 4 : Maire de Moye 2023",
-            "annee": 2022,
-            "categorie": "Audiovisuel",
-            "descriptions": ["En conséquence du projet réussi de l'année précédente en 2022, Madame VIBERT m'a contacté pour réaliser une nouvelle vidéo pour l'année 2023. J'ai immédiatement accepté la proposition et commencé à chercher des idées. J'ai trouvé sur Internet (https://www.youtube.com/watch?v=WEauc5vWNwo) une technique de tracking vidéo permettant d'ajouter des images dans une scène, et j'ai proposé cette idée à Madame VIBERT. Pour sa part, elle souhaitait afficher des données clés sous forme de puzzle avec la carte de la ville de Moye.", "J'ai donc créé le montage selon le même principe que pour le projet précédent.", "La réalisation de ces projets m'a permis de développer plusieurs compétences professionnelles importantes. Tout d'abord, j'ai acquis une expérience concrète dans la production de vidéos pour un client, ce qui m'a permis de mieux comprendre les enjeux et les attentes d'un client réel par rapport à un projet scolaire ou universitaire. J'ai également pu perfectionner mes compétences en montage vidéo en explorant différentes techniques de montage. Enfin, j'ai appris à collaborer efficacement avec un client et à communiquer clairement pour comprendre leurs besoins et leurs attentes, ce qui est une compétence essentielle pour réussir dans le monde professionnel."],
-            "photosIllus":[],
-            "photos": [],
-            "lienURL": "https://youtu.be/qtAxjCp3ulA",
-            "competences": ["Montage vidéo", "Relations avec un client", "Créativité"],
-            "ressources": ["Illustrator", "After Effect", "Premiere Pro"]
-        },
-        {
-            "id": 5,
-            "name": "Projet 5 : PUB VisiAR",
-            "annee": 2023,
-            "categorie": "Graphisme, Audiovisuel",
-            "descriptions": ["En anglais, en 2ème année de BUT Informatique, et en groupe, nous avons dû créer une publicité, une affiche publicitaire d’un produit imaginaire, mais technologique. L’enjeu était de choisir un pays et de faire la compagne publicitaire en se basant sur la culture du pays.", "Nous avons eu 19.50/20.", "", "Nous avions choisi, comme pays, les Pays-Bas.", "Notre produit était une paire de lunette de réalité virtuelle.", "Description : Les lunettes de réalité virtuelle de la marque visiAR permettent de donner vie à des dessins créés par l'utilisateur. Grâce à un système de reconnaissance de formes avancé, les dessins sont transformés en objets interactifs en 3D qui peuvent être manipulés et explorés dans un environnement virtuel immersif. Cette technologie novatrice permet aux utilisateurs de donner vie à leur propre créativité de manière ludique et éducative. Les lunettes visiAR sont parfaites pour les amateurs d'art, les enseignants et les enfants qui cherchent à explorer leur créativité en réalité virtuelle.", "1) Poster", "En observant les adverstising poster des Pays-Bas, on se rend compte que certaines sont simples, tandis que d’autres sont un plus complexe. Nous avons donc choisi de faire une affiche simple (fond uni, un titre et un slogan, le logo) pour la partie haute et un peu plus complexe (un homme, une étiquette de prix, un tigre, un dessin, une table) pour la partie basse.", "Le choix du dessin (le tigre) permet d’accentuer l’imagination, puisque que les tigres ne sont pas originaires des Pays-Bas.", "2) Vidéo", "Dans les Pays-Bas, les personnes sont très individualistes et sont tournés vers le travail. C’est d’ailleurs pour cela que, dans la publicité, on suit une seule personne qui n’interagit avec personne.", "Les Néerlandais sont connus pour leur mode de vie actif et leur utilisation fréquente du vélo comme moyen de transport pour se rendre au travail, à l'école ou pour les loisirs. Dans la vidéo, on peut suivre une journée type d’un Néerlandais (métro, parc + vélo, bar et maison).", "L’idée avec ce produit, c’était de montrer une échappatoire à des « travailleurs » comme les Néerlandais.", "La musique « Dream On » d’Aerosmith monte crescendo pour accentuer le moment final où l’utilisation du produit est montrée. Ce moment doit faire rêver et donner envie d’acheter le produit."],
-            "photosIllus":["/img/imgProjet/projet_5/3.jpg", "/img/imgProjet/projet_5/1.jpg"],
-            "photos": ["/img/imgProjet/projet_5/2.jpg", "/img/imgProjet/projet_5/3.jpg", "/img/imgProjet/projet_5/4.jpg"],
-            "lienURL": "https://www.youtube.com/watch?v=5hDGrdkXmUg",
-            "competences": ["Créativité", "Montage vidéo", "Connaisance du graphisme et de ses codes","Connaissance en modélisation 3D", "Connaissance en animation 3D"],
-            "ressources": ["Illustrator", "After Effect", "Premiere Pro", "Photoshop", "Blender"]
-        }
-    ]
+    {
+        "id": 1,
+        "name": "projet 1 : Mon portfolio",
+        "annee": 2023,
+        "categorie": "Développement Web",
+        "descriptions": [
+            "Mon portfolio est un site web où je présente mes compétences et mes projets professionnels. Il a été conçu pour ressembler à un bureau d'ordinateur.",
+            "Ce portfolio a été créé avec deux technologies : Vue.js et Tailwind. Ces technologies permettent de créer des sites web modernes et responsives (qui s'adaptent à tous les écrans) plus rapidement et plus facilement que les méthodes traditionnelles. Vue.js est une bibliothèque JavaScript qui facilite la création de composants interactifs, tandis que Tailwind est un framework CSS qui permet de créer des designs rapidement en utilisant des classes pré-définies.",
+            "J'ai également utilisé GitHub pour stocker le code source de mon portfolio et pour collaborer avec d'autres développeurs si nécessaire. Enfin, mon site web est hébergé chez OVH, un fournisseur d'hébergement de sites web réputé."
+        ],
+        "photosIllus": [
+            "/img/imgProjet/projet_1/1.png",
+            "/img/imgProjet/projet_1/3.png"
+        ],
+        "photos": [
+            "/img/imgProjet/projet_1/1.png",
+            "/img/imgProjet/projet_1/2.png",
+            "/img/imgProjet/projet_1/3.png"
+        ],
+        "lienURL": "https://github.com/soudant/Myportfolio",
+        "competences": [
+            "Maîtrise de Vue.js",
+            "Maîtrise de Tailwind CSS",
+            "Maîtrise de HTML et CSS"
+        ],
+        "ressources": [
+            "vue.js",
+            "tailwind",
+            "html",
+            "css",
+            "Github"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "projet 2 : Twitter",
+        "annee": 2023,
+        "categorie": "Développement Web",
+        "descriptions": [
+            "En deuxième année de BUT informatique, j'ai travaillé en binôme pour créer un clone de Twitter à l'aide de Vue 3 et Vite. Notre objectif était de pouvoir faire fonctionner l'application localement, sans accès à Internet, en utilisant Docker.",
+            "Nous avons publié trois versions de notre projet. Dans la dernière version, nous avons ajouté des fonctionnalités telles que la page de profil utilisateur, la page de visualisation de profil et la page de connexion/inscription.",
+            "Nous avons également réalisé un Figma de quelques pages du site pour avoir une meilleure vision globale de notre application.",
+            "lien vers le prototype figma : <a class=\"underline\" href='https://www.figma.com/proto/RMLdSzwVpoVtpZq51v4Iqi/Twitter-Bis-Docker?node-id=9-14&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=9%3A14'>https://www.figma.com/proto/RMLdSzwVpoVtpZq51v4Iqi/Twitter-Bis-Docker?node-id=9-14&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=9%3A14</a>",
+            "Ce projet m'a permis d'acquérir des compétences en développement web front-end, en utilisant des technologies populaires telles que Vue.js et Vite. J'ai également appris à travailler avec Docker pour la mise en place de l'application. En travaillant sur ce projet, j'ai également développé mes compétences en collaboration, car j'ai travaillé avec un partenaire pour développer l'application.",
+            "Malheureusement, nous n'avons pas pu terminer le développement de la partie \"back-end\" de notre projet dans les délais impartis. En effet, le délai initialement prévu était d'une semaine, ce qui ne nous a pas laissé suffisamment de temps pour finaliser cette partie importante du projet. Cependant, malgré cette contrainte, nous avons réussi à mettre en place une grande partie du front-end."
+        ],
+        "photosIllus": [
+            "",
+            "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FRMLdSzwVpoVtpZq51v4Iqi%2FTwitter-Bis-Docker%3Fnode-id%3D0%253A1%26t%3D8Rz42hvCnL1rgczV-1"
+        ],
+        "photos": [],
+        "lienURL": "https://github.com/DockerTeams/twitter-bis-docker",
+        "competences": [
+            "Maîtrise de Vue.js",
+            "Maîtrise de Tailwind CSS",
+            "Maîtrise de HTML et CSS",
+            "Maîtrise de Figma",
+            "Connaissance de Docker"
+        ],
+        "ressources": [
+            "vue.js",
+            "tailwind",
+            "html",
+            "css",
+            "figma",
+            "Github",
+            "docker",
+            "node.js"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "projet 3 :  Mairie de Moye 2022",
+        "annee": 2021,
+        "categorie": "Audiovisuel",
+        "descriptions": [
+            "En août 2021, Madame VIBERT, la Maire de la ville de Moye, m'a sollicité afin de réaliser une vidéo destinée aux vœux du Maire pour janvier 2022. Le projet consistait à retracer l'ensemble des activités qui ont eu lieu à Moye au cours de l'année 2021, incluant notamment l'école, les associations, les travaux, les marchés ainsi que la mairie.",
+            " Étant donné que ce projet constituait ma première expérience significative en dehors de mon cursus scolaire ou universitaire, j'ai pris conscience de l'importance de fournir une prestation de qualité à un véritable client. Les enjeux étaient donc considérables.",
+            " Au cours de notre première réunion, Madame VIBERT et moi-même avons convenu du fil conducteur de la vidéo. C'est à ce moment-là que j'ai proposé l'utilisation d'une carte ainsi que de 'mini-montages' pour chaque lieu représenté. Madame VIBERT souhaitait accorder une attention particulière aux hameaux de la ville, souvent négligés, afin de leur signifier que l'année 2021 était différente et que la mairie avait à cœur de prendre en considération leurs besoins. L'idée de représenter tous les panneaux des hameaux a donc été considérée comme judicieuse.",
+            " J'ai énormément apprécié ce projet en raison de la liberté de création qu'il m'a offerte, mais aussi de l'expérience qu'il m'a permis d'acquérir en matière de montage et de relations avec un client. Madame VIBERT m'a accordé sa confiance pour proposer des idées, ce qui m'a permis de prendre des initiatives.",
+            " Si je devais refaire ce projet, je m'organiserais de manière plus efficace pour éviter de perdre du temps de manière inutile."
+        ],
+        "photosIllus": [
+            "/img/imgProjet/projet_3/3.JPG",
+            "/img/imgProjet/projet_3/4.JPG"
+        ],
+        "photos": [
+            "/img/imgProjet/projet_3/6.JPG",
+            "/img/imgProjet/projet_3/4.JPG",
+            "/img/imgProjet/projet_3/2.JPG",
+            "/img/imgProjet/projet_3/5.JPG",
+            "/img/imgProjet/projet_3/1.JPG",
+            "/img/imgProjet/projet_3/3.JPG"
+        ],
+        "lienURL": "https://youtu.be/x4adsGck6xc",
+        "competences": [
+            "Montage vidéo",
+            "Relations avec un client",
+            "Créativité"
+        ],
+        "ressources": [
+            "Hitfilm Express",
+            "google drive"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "projet 4 : Maire de Moye 2023",
+        "annee": 2022,
+        "categorie": "Audiovisuel",
+        "descriptions": [
+            "En conséquence du projet réussi de l'année précédente en 2022, Madame VIBERT m'a contacté pour réaliser une nouvelle vidéo pour l'année 2023. J'ai immédiatement accepté la proposition et commencé à chercher des idées. J'ai trouvé sur Internet (https://www.youtube.com/watch?v=WEauc5vWNwo) une technique de tracking vidéo permettant d'ajouter des images dans une scène, et j'ai proposé cette idée à Madame VIBERT. Pour sa part, elle souhaitait afficher des données clés sous forme de puzzle avec la carte de la ville de Moye.",
+            "J'ai donc créé le montage selon le même principe que pour le projet précédent.",
+            "La réalisation de ces projets m'a permis de développer plusieurs compétences professionnelles importantes. Tout d'abord, j'ai acquis une expérience concrète dans la production de vidéos pour un client, ce qui m'a permis de mieux comprendre les enjeux et les attentes d'un client réel par rapport à un projet scolaire ou universitaire. J'ai également pu perfectionner mes compétences en montage vidéo en explorant différentes techniques de montage. Enfin, j'ai appris à collaborer efficacement avec un client et à communiquer clairement pour comprendre leurs besoins et leurs attentes, ce qui est une compétence essentielle pour réussir dans le monde professionnel."
+        ],
+        "photosIllus": [],
+        "photos": [],
+        "lienURL": "https://youtu.be/qtAxjCp3ulA",
+        "competences": [
+            "Montage vidéo",
+            "Relations avec un client",
+            "Créativité"
+        ],
+        "ressources": [
+            "Illustrator",
+            "After Effect",
+            "Premiere Pro"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Projet 5 : PUB VisiAR",
+        "annee": 2023,
+        "categorie": "Graphisme, Audiovisuel",
+        "descriptions": [
+            "En anglais, en 2ème année de BUT Informatique, et en groupe, nous avons dû créer une publicité, une affiche publicitaire d’un produit imaginaire, mais technologique. L’enjeu était de choisir un pays et de faire la compagne publicitaire en se basant sur la culture du pays.",
+            "Nous avons eu 19.50/20.",
+            "",
+            "Nous avions choisi, comme pays, les Pays-Bas.",
+            "Notre produit était une paire de lunette de réalité virtuelle.",
+            "Description : Les lunettes de réalité virtuelle de la marque visiAR permettent de donner vie à des dessins créés par l'utilisateur. Grâce à un système de reconnaissance de formes avancé, les dessins sont transformés en objets interactifs en 3D qui peuvent être manipulés et explorés dans un environnement virtuel immersif. Cette technologie novatrice permet aux utilisateurs de donner vie à leur propre créativité de manière ludique et éducative. Les lunettes visiAR sont parfaites pour les amateurs d'art, les enseignants et les enfants qui cherchent à explorer leur créativité en réalité virtuelle.",
+            "1) Poster",
+            "En observant les adverstising poster des Pays-Bas, on se rend compte que certaines sont simples, tandis que d’autres sont un plus complexe. Nous avons donc choisi de faire une affiche simple (fond uni, un titre et un slogan, le logo) pour la partie haute et un peu plus complexe (un homme, une étiquette de prix, un tigre, un dessin, une table) pour la partie basse.",
+            "Le choix du dessin (le tigre) permet d’accentuer l’imagination, puisque que les tigres ne sont pas originaires des Pays-Bas.",
+            "2) Vidéo",
+            "Dans les Pays-Bas, les personnes sont très individualistes et sont tournés vers le travail. C’est d’ailleurs pour cela que, dans la publicité, on suit une seule personne qui n’interagit avec personne.",
+            "Les Néerlandais sont connus pour leur mode de vie actif et leur utilisation fréquente du vélo comme moyen de transport pour se rendre au travail, à l'école ou pour les loisirs. Dans la vidéo, on peut suivre une journée type d’un Néerlandais (métro, parc + vélo, bar et maison).",
+            "L’idée avec ce produit, c’était de montrer une échappatoire à des « travailleurs » comme les Néerlandais.",
+            "La musique « Dream On » d’Aerosmith monte crescendo pour accentuer le moment final où l’utilisation du produit est montrée. Ce moment doit faire rêver et donner envie d’acheter le produit."
+        ],
+        "photosIllus": [
+            "/img/imgProjet/projet_5/3.jpg",
+            "/img/imgProjet/projet_5/1.jpg"
+        ],
+        "photos": [
+            "/img/imgProjet/projet_5/2.jpg",
+            "/img/imgProjet/projet_5/3.jpg",
+            "/img/imgProjet/projet_5/4.jpg"
+        ],
+        "lienURL": "https://www.youtube.com/watch?v=5hDGrdkXmUg",
+        "competences": [
+            "Créativité",
+            "Montage vidéo",
+            "Connaisance du graphisme et de ses codes",
+            "Connaissance en modélisation 3D",
+            "Connaissance en animation 3D"
+        ],
+        "ressources": [
+            "Illustrator",
+            "After Effect",
+            "Premiere Pro",
+            "Photoshop",
+            "Blender"
+        ]
+    }
+]

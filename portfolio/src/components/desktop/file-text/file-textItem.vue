@@ -52,15 +52,14 @@ export default {
         toggleFullscreen() {
             const fileExplorer = this.$refs.file;
             if (!this.isFullscreen) {
-                fileExplorer.classList.remove("top-[calc(50%-25vh)]", "left-[calc(50%-20vw)]", "w-[40vw]")
+                fileExplorer.classList.remove("w-[40vw]", "top-[calc(50%-25vh-30px)]", "left-[calc(50%-20vw)]",  "h-[50vh]")
                 const screenHeight = window.innerHeight;
                 const height = `calc(${screenHeight}px - 60px)`;
-                fileExplorer.style.height = height;
-                fileExplorer.classList.add("h-[94vh]", "w-screen", "left-[0px]", "top-0");
+                fileExplorer.style.height = height; 
+                fileExplorer.classList.add("h-[calc(100vh-60px)]", "w-screen", "left-0", "top-0");
             } else {
-                fileExplorer.classList.add("top-[calc(50%-25vh)]", "left-[calc(50%-20vw)]", "w-[40vw]")
-                fileExplorer.classList.remove("w-screen");
-                fileExplorer.classList.remove("top-[0px]", "left-[0px]");
+                fileExplorer.classList.add("w-[40vw]", "top-[calc(50%-25vh-30px)]", "left-[calc(50%-20vw)]",  "h-[50vh]");
+                fileExplorer.classList.remove("h-[calc(100vh-60px)]", "w-screen", "left-0", "top-0");
                 fileExplorer.style.height = "50vh";
             }
             this.isFullscreen = !this.isFullscreen;

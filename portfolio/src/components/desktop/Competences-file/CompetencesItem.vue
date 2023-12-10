@@ -9,7 +9,7 @@ import ProgressRadialItem from './ProgressRadialItem.vue'
             <h2 class="text-3xl font-semibold text-lightMode-primary pb-5">Compétences en Développement :</h2>
             <div class="ml-5 pb-5">
                     <ProgressBarItem target-value="90" nameLabel="HTML - CSS:" class="w-[30vw] pb-3"></ProgressBarItem>
-                    <ProgressBarItem target-value="40" nameLabel="PHP:" class="w-[30vw] pb-3"></ProgressBarItem>
+                    <ProgressBarItem target-value="70" nameLabel="PHP:" class="w-[30vw] pb-3"></ProgressBarItem>
                     <ProgressBarItem target-value="70" nameLabel="Javascript:" class="w-[30vw] pb-3"></ProgressBarItem>
                     <ProgressBarItem target-value="70" nameLabel="Vue.js:" class="w-[30vw] pb-3"></ProgressBarItem>
                     <ProgressBarItem target-value="80" nameLabel="Tailwind:" class="w-[30vw] pb-3"></ProgressBarItem>
